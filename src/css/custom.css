@@ -1,23 +1,15 @@
+/* Cosmos theme customization - override brand colors */
 :root {
-  --ifm-color-primary: #3578e5;
-  --ifm-color-primary-dark: #2869d0;
-  --ifm-color-primary-darker: #2563c4;
-  --ifm-color-primary-darkest: #1e50a0;
-  --ifm-color-primary-light: #4c88e9;
-  --ifm-color-primary-lighter: #5b93eb;
-  --ifm-color-primary-lightest: #7da9f0;
-  --ifm-code-font-size: 95%;
+  --cosmos-brand: #3578e5; /* light-mode accent */
+  --cosmos-brand-rgb: 53, 120, 229; /* same color, for translucent fills */
 }
+
+[data-theme='dark'] {
+  --cosmos-brand-light: #7aa7ff; /* dark-mode accent (lighter for contrast) */
+  --cosmos-brand-light-rgb: 122, 167, 255;
+}
+
 .docs-home {min-height: calc(100vh - 60px); display: grid; place-items: center; text-align: center;}
 .docs-home .container {padding: 4rem 1rem;}
 .docs-home h1 {font-size: clamp(2.5rem, 7vw, 5rem); margin-bottom: 1rem;}
 .docs-home .hero__subtitle {max-width: 42rem; margin: 0 auto 2rem; font-size: 1.2rem;}
-[data-theme='dark'] {
-  --ifm-color-primary: #7aa7ff;
-  --ifm-color-primary-dark: #5d91ff;
-  --ifm-color-primary-darker: #4f87ff;
-  --ifm-color-primary-darkest: #2d6fff;
-  --ifm-color-primary-light: #97baff;
-  --ifm-color-primary-lighter: #a6c4ff;
-  --ifm-color-primary-lightest: #c9d9ff;
-}
