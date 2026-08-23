@@ -1,9 +1,5 @@
 {
   "label": "Reference",
   "position": 3,
-  "className": "sidebar-cat-layers",
-  "link": {
-    "type": "generated-index",
-    "description": "Technical reference for WatChat."
-  }
+  "collapsed": false
 }

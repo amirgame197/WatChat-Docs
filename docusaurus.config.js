@@ -25,7 +25,7 @@ const websiteIcon =
   '</svg>';
 
 export default {
-  title: 'Documentation',
+  title: 'WatChat',
   tagline: 'Documentation for WatChat',
   favicon: 'img/favicon.svg',
   url: customDomain ? `https://${customDomain}` : `https://${organizationName}.github.io`,
@@ -37,7 +37,6 @@ export default {
   markdown: {hooks: {onBrokenMarkdownLinks: 'warn'}},
   i18n: {defaultLocale: 'en', locales: ['en']},
   themes: [
-    'cosmos-docusaurus-theme',
     [
       '@easyops-cn/docusaurus-search-local',
       {
@@ -55,7 +54,15 @@ export default {
     {
       docs: {sidebarPath: './sidebars.js', editUrl: undefined},
       blog: false,
-      theme: {customCss: './src/css/custom.css'},
+      theme: {
+        customCss: [
+          './src/css/custom.css',
+          '@fontsource/roboto/300.css',
+          '@fontsource/roboto/400.css',
+          '@fontsource/roboto/500.css',
+          '@fontsource/roboto/700.css',
+        ],
+      },
     },
   ]],
   themeConfig: {
@@ -66,6 +73,7 @@ export default {
     image: 'img/social-card.svg',
     navbar: {
       title: 'WatChat',
+      logo: {alt: 'WatChat logo', src: 'img/favicon.svg'},
       hideOnScroll: false,
       items: [
         {type: 'docSidebar', sidebarId: 'docsSidebar', position: 'left', label: 'Docs'},
@@ -109,6 +117,6 @@ export default {
       ],
       copyright: `Copyright © ${new Date().getFullYear()} WatChat. Built with Docusaurus.`,
     },
-    prism: {theme: prismThemes.oneLight, darkTheme: prismThemes.oneDark},
+    prism: {theme: prismThemes.github, darkTheme: prismThemes.dracula},
   },
 };

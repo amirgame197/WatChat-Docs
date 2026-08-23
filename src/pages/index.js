@@ -1,19 +1,33 @@
 import React from 'react';
+import clsx from 'clsx';
 import Link from '@docusaurus/Link';
+import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 
-export default function Home() {
+import styles from './index.module.css';
+
+function HomepageHeader() {
+  const {siteConfig} = useDocusaurusContext();
   return (
-    <Layout title="Documentation" description="Project documentation">
-      <main className="hero hero--primary docs-home">
-        <div className="container">
-          <h1>Documentation</h1>
-          <p className="hero__subtitle">Everything you need to know about this project.</p>
+    <header className={clsx('hero hero--primary', styles.heroBanner)}>
+      <div className="container">
+        <h1 className="hero__title">{siteConfig.title}</h1>
+        <p className="hero__subtitle">{siteConfig.tagline}</p>
+        <div className={styles.buttons}>
           <Link className="button button--secondary button--lg" to="/docs/intro">
-            Read the docs →
+            Read the docs
           </Link>
         </div>
-      </main>
+      </div>
+    </header>
+  );
+}
+
+export default function Home() {
+  const {siteConfig} = useDocusaurusContext();
+  return (
+    <Layout title={siteConfig.title} description={siteConfig.tagline}>
+      <HomepageHeader />
     </Layout>
   );
 }
