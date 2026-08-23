@@ -57,10 +57,10 @@ export default {
       theme: {
         customCss: [
           './src/css/custom.css',
-          '@fontsource/roboto/300.css',
-          '@fontsource/roboto/400.css',
-          '@fontsource/roboto/500.css',
-          '@fontsource/roboto/700.css',
+          require.resolve('@fontsource/roboto/300.css'),
+          require.resolve('@fontsource/roboto/400.css'),
+          require.resolve('@fontsource/roboto/500.css'),
+          require.resolve('@fontsource/roboto/700.css'),
         ],
       },
     },
