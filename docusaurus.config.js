@@ -73,7 +73,7 @@ export default {
     image: 'img/social-card.svg',
     navbar: {
       title: 'WatChat',
-      logo: {alt: 'WatChat logo', src: 'img/favicon.svg'},
+      logo: {alt: 'WatChat Icon', src: 'img/favicon.svg'},
       hideOnScroll: false,
       items: [
         {type: 'docSidebar', sidebarId: 'docsSidebar', position: 'left', label: 'Docs'},
@@ -81,14 +81,14 @@ export default {
           href: websiteUrl,
           position: 'right',
           html: websiteIcon,
-          'aria-label': 'WatChat website',
+          'aria-label': 'Visit WatChat',
           className: 'navbar-icon-link',
         },
         {
           href: githubUrl,
           position: 'right',
           html: githubIcon,
-          'aria-label': 'GitHub repository',
+          'aria-label': 'GitHub Docs Repository',
           className: 'navbar-icon-link',
         },
       ],
