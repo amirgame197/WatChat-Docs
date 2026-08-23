@@ -67,8 +67,12 @@ export default {
           require.resolve('@fontsource/roboto/700.css'),
         ],
       },
-      // Redirect root to /intro
-      clientRedirects: {
+    },
+  ]],
+  plugins: [
+    [
+      '@docusaurus/plugin-client-redirects',
+      {
         fromExtensions: ['html'],
         redirects: [
           {
@@ -77,8 +81,8 @@ export default {
           },
         ],
       },
-    },
-  ]],
+    ],
+  ],
   themeConfig: {
     colorMode: {
       defaultMode: 'dark',
