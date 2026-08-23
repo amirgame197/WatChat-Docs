@@ -1,15 +1,193 @@
-/* Cosmos theme customization - override brand colors */
+/**
+ * Cosmos theme overrides — calmer palette + higher-contrast footer.
+ * Loaded after cosmos-docusaurus-theme, so these win on equal specificity.
+ */
+
+/* ── Brand: muted indigo instead of cosmos' vivid #465fff ────────────────── */
 :root {
-  --cosmos-brand: #3578e5; /* light-mode accent */
-  --cosmos-brand-rgb: 53, 120, 229; /* same color, for translucent fills */
+  --cosmos-brand: #4f5bd5;
+  --cosmos-brand-rgb: 79, 91, 213;
+  --cosmos-brand-light: #8b9bf0;
+  --cosmos-brand-light-rgb: 139, 155, 240;
+
+  --ifm-color-primary: var(--cosmos-brand);
+  --ifm-color-primary-dark: #4550c2;
+  --ifm-color-primary-darker: #3b45a8;
+  --ifm-color-primary-darkest: #303890;
+  --ifm-color-primary-light: #6b76dd;
+  --ifm-color-primary-lighter: #8b93e6;
+  --ifm-color-primary-lightest: #c3c8f4;
+
+  --ifm-link-color: var(--cosmos-brand);
+  --ifm-link-hover-color: #3b45a8;
+
+  /* Neutral, slightly cooler grays — less glare than pure white */
+  --ifm-background-color: #fcfcfd;
+  --ifm-background-surface-color: #fff;
+  --ifm-font-color-base: #23262d;
+  --ifm-font-color-secondary: #5b616e;
+  --ifm-font-size-base: 16px;
+  --ifm-line-height-base: 1.72;
 }
 
 [data-theme='dark'] {
-  --cosmos-brand-light: #7aa7ff; /* dark-mode accent (lighter for contrast) */
-  --cosmos-brand-light-rgb: 122, 167, 255;
+  --ifm-color-primary: var(--cosmos-brand-light);
+  --ifm-color-primary-dark: #7182ec;
+  --ifm-color-primary-darker: #5e70e6;
+  --ifm-color-primary-darkest: var(--cosmos-brand);
+  --ifm-color-primary-light: #a3b0f4;
+  --ifm-color-primary-lighter: #bcc5f8;
+  --ifm-color-primary-lightest: #dde2fc;
+
+  --ifm-link-color: var(--cosmos-brand-light);
+  --ifm-link-hover-color: #b0bcf6;
+
+  /* Lift cosmos' near-black surfaces so text edges stay soft */
+  --ifm-font-color-base: #e6e8ec;
+  --ifm-font-color-secondary: #b3b8c2;
+  --ifm-navbar-background-color: #171a21;
+  --ifm-footer-background-color: #12141a;
 }
 
-.docs-home {min-height: calc(100vh - 60px); display: grid; place-items: center; text-align: center;}
-.docs-home .container {padding: 4rem 1rem;}
-.docs-home h1 {font-size: clamp(2.5rem, 7vw, 5rem); margin-bottom: 1rem;}
-.docs-home .hero__subtitle {max-width: 42rem; margin: 0 auto 2rem; font-size: 1.2rem;}
+html[data-theme='dark'] {
+  --ifm-background-color: #0f1115;
+  --ifm-background-surface-color: #171a21;
+  --ifm-code-background: #21252e;
+  --ifm-color-emphasis-300: #2a2f3a;
+  --ifm-color-emphasis-600: #b3b8c2;
+  --ifm-toc-border-color: #2a2f3a;
+}
+
+/* Cosmos hardcodes #111827/#030712 on these — retarget to the lifted grays */
+[data-theme='dark'] .navbar,
+[data-theme='dark'] .theme-doc-sidebar-container,
+[data-theme='dark'] .card,
+[data-theme='dark'] details,
+[data-theme='dark'] th,
+[data-theme='dark'] thead,
+[data-theme='dark'] thead tr {
+  background-color: #171a21;
+}
+
+[data-theme='dark'] .navbar {
+  border-bottom-color: #2a2f3a;
+}
+
+[data-theme='dark'] .theme-doc-sidebar-container {
+  border-right-color: #2a2f3a !important;
+}
+
+[data-theme='dark'] .main-wrapper {
+  background-color: #0f1115;
+}
+
+[data-theme='dark'] table,
+[data-theme='dark'] th,
+[data-theme='dark'] td {
+  border-color: #2a2f3a;
+}
+
+/* ── Footer: readable text, no washed-out opacity ────────────────────────── */
+.footer__link-item {
+  color: var(--ifm-font-color-secondary) !important;
+  opacity: 1 !important;
+}
+
+.footer__copyright {
+  color: var(--ifm-font-color-secondary) !important;
+  opacity: 1;
+}
+
+[data-theme='dark'] .footer {
+  background-color: #12141a;
+  border-top-color: #2a2f3a;
+  color: #c2c7d0;
+}
+
+[data-theme='dark'] .footer__link-item {
+  color: #c2c7d0 !important;
+}
+
+[data-theme='dark'] .footer__link-item:hover {
+  color: var(--cosmos-brand-light) !important;
+}
+
+[data-theme='dark'] .footer__title {
+  color: #e6e8ec !important;
+}
+
+[data-theme='dark'] .footer__copyright {
+  color: #9aa0ac !important;
+  border-top-color: #2a2f3a !important;
+}
+
+/* ── Navbar icon links (website / GitHub) ────────────────────────────────── */
+.navbar-icon-link {
+  display: inline-flex !important;
+  align-items: center;
+  justify-content: center;
+  padding: 6px !important;
+  border-radius: 8px;
+  color: var(--ifm-navbar-link-color);
+}
+
+.navbar-icon-link svg {
+  display: block;
+}
+
+.navbar-icon-link:hover {
+  color: var(--ifm-color-primary);
+  background: rgb(var(--cosmos-brand-rgb), 0.08);
+}
+
+[data-theme='dark'] .navbar-icon-link:hover {
+  background: rgb(var(--cosmos-brand-light-rgb), 0.12);
+}
+
+/* Cosmos hides right-side navbar links under 996px — keep the icons */
+@media (width <= 996px) {
+  .navbar__items--right > .navbar__item.navbar-icon-link {
+    display: inline-flex !important;
+  }
+}
+
+/* ── Content: calmer headings and accents ────────────────────────────────── */
+.markdown h1 {
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+.markdown h2 {
+  letter-spacing: -0.015em;
+}
+
+.markdown blockquote {
+  background: rgb(var(--cosmos-brand-rgb), 0.05);
+}
+
+.navbar__title {
+  letter-spacing: 0.04em;
+}
+
+/* ── Home page hero ─────────────────────────────────────────────────────── */
+.docs-home {
+  min-height: calc(100vh - var(--ifm-navbar-height));
+  display: grid;
+  place-items: center;
+  text-align: center;
+}
+
+.docs-home .container {
+  padding: 4rem 1rem;
+}
+
+.docs-home h1 {
+  font-size: clamp(2.5rem, 7vw, 4.5rem);
+  margin-bottom: 1rem;
+}
+
+.docs-home .hero__subtitle {
+  max-width: 42rem;
+  margin: 0 auto 2rem;
+  font-size: 1.15rem;
+}

@@ -1,0 +1,9 @@
+{
+  "label": "Guides",
+  "position": 2,
+  "className": "sidebar-cat-rocket",
+  "link": {
+    "type": "generated-index",
+    "description": "Setup and usage guides for WatChat."
+  }
+}
