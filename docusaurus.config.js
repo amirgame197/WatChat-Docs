@@ -19,6 +19,7 @@ export default {
   onBrokenLinks: 'throw',
   markdown: {hooks: {onBrokenMarkdownLinks: 'warn'}},
   i18n: {defaultLocale: 'en', locales: ['en']},
+  themes: ['cosmos-docusaurus-theme'],
   presets: [[
     'classic',
     {
@@ -28,6 +29,10 @@ export default {
     },
   ]],
   themeConfig: {
+    colorMode: {
+      defaultMode: 'dark',
+      respectPrefersColorScheme: true,
+    },
     image: 'img/social-card.svg',
     navbar: {
       title: 'Documentation',
@@ -38,7 +43,7 @@ export default {
     footer: {
       style: 'dark',
       links: [{title: 'Documentation', items: [{label: 'Introduction', to: '/docs/intro'}]}],
-      copyright: `© ${new Date().getFullYear()} WatChat`,
+      copyright: `© ${new Date().getFullYear()} WatChat. Built with Docusaurus.`,
     },
     prism: {theme: prismThemes.github, darkTheme: prismThemes.dracula},
   },
