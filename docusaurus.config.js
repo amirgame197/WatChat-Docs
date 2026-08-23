@@ -94,7 +94,6 @@ export default {
       logo: {alt: 'WatChat Icon', src: 'img/favicon.svg', href: '/intro'},
       hideOnScroll: false,
       items: [
-        {type: 'docSidebar', sidebarId: 'docsSidebar', position: 'left'},
         {
           href: websiteUrl,
           position: 'right',
