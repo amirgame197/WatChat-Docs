@@ -28,7 +28,7 @@
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
 
-/* ── Navbar icon links (website / GitHub) ────────────────────────────────── */
+/* Navbar icon links for Website, GitHub and maybe others later */
 .navbar-icon-link {
   display: inline-flex;
   align-items: center;
