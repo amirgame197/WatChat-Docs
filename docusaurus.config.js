@@ -2,17 +2,17 @@ import {themes as prismThemes} from 'prism-react-renderer';
 import fs from 'node:fs';
 import path from 'node:path';
 
-const repo = process.env.GITHUB_REPOSITORY || 'YOUR_GITHUB_USERNAME/my-docs';
+const repo = process.env.GITHUB_REPOSITORY || 'amirgame197/WatChat-Docs';
 const [organizationName, projectName] = repo.split('/');
 const cnamePath = path.join(process.cwd(), 'static', 'CNAME');
 const customDomain = fs.existsSync(cnamePath) ? fs.readFileSync(cnamePath, 'utf8').trim() : ''; 
 
 export default {
   title: 'Documentation',
-  tagline: 'Documentation for your project',
+  tagline: 'Documentation for WatChat',
   favicon: 'img/favicon.svg',
   url: customDomain ? `https://${customDomain}` : `https://${organizationName}.github.io`,
-  baseUrl: customDomain ? '/' : `/${projectName}/`,
+  baseUrl: '/',
   organizationName,
   projectName,
   trailingSlash: false,
@@ -38,7 +38,7 @@ export default {
     footer: {
       style: 'dark',
       links: [{title: 'Documentation', items: [{label: 'Introduction', to: '/docs/intro'}]}],
-      copyright: `© ${new Date().getFullYear()} Your Project`,
+      copyright: `© ${new Date().getFullYear()} WatChat`,
     },
     prism: {theme: prismThemes.github, darkTheme: prismThemes.dracula},
   },
