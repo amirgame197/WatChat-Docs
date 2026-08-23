@@ -3,6 +3,3 @@ build/
 .docusaurus/
 .cache-loader/
 .DS_Store
-
-# Reference clone, not part of this site
-ffmpeg.wasm/
