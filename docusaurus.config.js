@@ -67,6 +67,16 @@ export default {
           require.resolve('@fontsource/roboto/700.css'),
         ],
       },
+      // Redirect root to /intro
+      clientRedirects: {
+        fromExtensions: ['html'],
+        redirects: [
+          {
+            to: '/intro',
+            from: '/',
+          },
+        ],
+      },
     },
   ]],
   themeConfig: {
