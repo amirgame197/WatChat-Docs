@@ -77,7 +77,7 @@ export default {
     image: 'img/social-card.svg',
     navbar: {
       title: 'WatChat',
-      logo: {alt: 'WatChat Icon', src: 'img/favicon.svg'},
+      logo: {alt: 'WatChat Icon', src: 'img/favicon.svg', href: '/intro'},
       hideOnScroll: false,
       items: [
         {type: 'docSidebar', sidebarId: 'docsSidebar', position: 'left', label: 'Docs'},
