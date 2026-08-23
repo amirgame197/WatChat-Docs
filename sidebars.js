@@ -1,7 +1,15 @@
 export default {
   docsSidebar: [
     'intro',
-    {type: 'category', label: 'Guides', items: []},
-    {type: 'category', label: 'Reference', items: []},
+    {
+      type: 'category',
+      label: 'Guides',
+      items: ['guides/getting-started'],
+    },
+    {
+      type: 'category',
+      label: 'Reference',
+      items: ['reference/overview'],
+    },
   ],
 };
