@@ -95,7 +95,6 @@ export default {
     },
     docs: {sidebar: {hideable: true, autoCollapseCategories: false}},
     tableOfContents: {minHeadingLevel: 2, maxHeadingLevel: 4},
-    footer: false,
     prism: {theme: prismThemes.github, darkTheme: prismThemes.dracula},
   },
 };
