@@ -90,11 +90,11 @@ export default {
     },
     image: 'img/social-card.svg',
     navbar: {
-      title: 'WatChat',
+      title: 'WatChat Documentation',
       logo: {alt: 'WatChat Icon', src: 'img/favicon.svg', href: '/intro'},
       hideOnScroll: false,
       items: [
-        {type: 'docSidebar', sidebarId: 'docsSidebar', position: 'left', label: 'Docs'},
+        {type: 'docSidebar', sidebarId: 'docsSidebar', position: 'left'},
         {
           href: websiteUrl,
           position: 'right',
