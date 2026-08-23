@@ -52,7 +52,11 @@ export default {
   presets: [[
     'classic',
     {
-      docs: {sidebarPath: './sidebars.js', editUrl: undefined},
+      docs: {
+        sidebarPath: './sidebars.js',
+        editUrl: undefined,
+        routeBasePath: '/',
+      },
       blog: false,
       theme: {
         customCss: [
