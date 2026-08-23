@@ -27,7 +27,7 @@ const websiteIcon =
 export default {
   title: 'WatChat',
   tagline: 'Documentation for WatChat',
-  favicon: 'img/favicon.svg',
+  favicon: 'img/favicon.png',
   url: customDomain ? `https://${customDomain}` : `https://${organizationName}.github.io`,
   baseUrl: '/',
   organizationName,
@@ -88,10 +88,10 @@ export default {
       defaultMode: 'dark',
       respectPrefersColorScheme: true,
     },
-    image: 'img/social-card.svg',
+    image: 'img/social-card.png',
     navbar: {
       title: 'WatChat Documentation',
-      logo: {alt: 'WatChat Icon', src: 'img/favicon.svg', href: '/intro'},
+      logo: {alt: 'WatChat Icon', src: 'img/favicon.png', href: '/intro'},
       hideOnScroll: false,
       items: [
         {
