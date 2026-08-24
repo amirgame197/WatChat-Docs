@@ -1,5 +1,8 @@
 {
-  "label": "طرز کار",
+  "label": {
+    "en": "Guides",
+    "fa": "طرز کار"
+  },
   "position": 2,
   "collapsed": false
 }
