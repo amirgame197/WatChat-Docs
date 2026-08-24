@@ -1,8 +1,5 @@
 {
-  "label": {
-    "en": "Reference",
-    "fa": "مراجع"
-  },
+  "label": "Reference",
   "position": 3,
   "collapsed": false
 }
