@@ -68,6 +68,7 @@ export default {
       theme: {
         customCss: [
           './src/css/custom.css',
+          './src/css/dropdown.css',
           require.resolve('@fontsource/roboto/300.css'),
           require.resolve('@fontsource/roboto/400.css'),
           require.resolve('@fontsource/roboto/500.css'),
@@ -114,6 +115,11 @@ export default {
           html: githubIcon,
           'aria-label': 'GitHub Docs Repository',
           className: 'navbar-icon-link',
+        },
+        {
+          type: 'localeDropdown',
+          position: 'right',
+          dropdownActiveClassDisabled: true,
         },
       ],
     },
