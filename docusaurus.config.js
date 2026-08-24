@@ -103,6 +103,11 @@ export default {
       hideOnScroll: false,
       items: [
         {
+          type: 'localeDropdown',
+          position: 'right',
+          dropdownActiveClassDisabled: true,
+        },
+        {
           href: websiteUrl,
           position: 'right',
           html: websiteIcon,
@@ -115,11 +120,6 @@ export default {
           html: githubIcon,
           'aria-label': 'GitHub Docs Repository',
           className: 'navbar-icon-link',
-        },
-        {
-          type: 'localeDropdown',
-          position: 'right',
-          dropdownActiveClassDisabled: true,
         },
       ],
     },
