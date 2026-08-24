@@ -35,7 +35,14 @@ export default {
   trailingSlash: false,
   onBrokenLinks: 'throw',
   markdown: {hooks: {onBrokenMarkdownLinks: 'warn'}},
-  i18n: {defaultLocale: 'en', locales: ['en']},
+  i18n: {
+    defaultLocale: 'en',
+    locales: ['en', 'fa'],
+    localeConfigs: {
+      en: {label: 'English', direction: 'ltr'},
+      fa: {label: 'فارسی', direction: 'rtl'},
+    },
+  },
   themes: [
     [
       '@easyops-cn/docusaurus-search-local',
