@@ -5,4 +5,4 @@ sidebar_label: نکات و ترفند ها
 sidebar_position: 8
 ---
 
-Empty Section.
+بخش خالی.

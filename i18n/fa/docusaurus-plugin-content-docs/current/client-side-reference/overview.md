@@ -5,4 +5,4 @@ sidebar_label: نمای کلی
 sidebar_position: 1
 ---
 
-Empty Section.
+بخش خالی.

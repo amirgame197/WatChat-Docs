@@ -5,4 +5,4 @@ sidebar_label: ورود به یک اتاق
 sidebar_position: 2
 ---
 
-Empty Section.
+بخش خالی.

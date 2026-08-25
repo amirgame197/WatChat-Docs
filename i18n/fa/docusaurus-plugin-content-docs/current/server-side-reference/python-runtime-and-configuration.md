@@ -5,4 +5,4 @@ sidebar_label: ران تایم پایتون و کانفیگ
 sidebar_position: 2
 ---
 
-Empty Section.
+بخش خالی.

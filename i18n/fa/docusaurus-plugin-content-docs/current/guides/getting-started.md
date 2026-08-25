@@ -5,4 +5,4 @@ sidebar_label: شروع به کار
 sidebar_position: 1
 ---
 
-Empty Section.
+بخش خالی.

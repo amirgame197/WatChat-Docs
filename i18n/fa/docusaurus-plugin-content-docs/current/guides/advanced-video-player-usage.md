@@ -5,4 +5,4 @@ sidebar_label: پخش کننده ویدیو بصورت پیشرفته
 sidebar_position: 7
 ---
 
-Empty Section.
+بخش خالی.

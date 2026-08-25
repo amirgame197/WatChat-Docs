@@ -5,4 +5,4 @@ sidebar_label: چت کردن بصورت پیشرفته
 sidebar_position: 6
 ---
 
-Empty Section.
+بخش خالی.
