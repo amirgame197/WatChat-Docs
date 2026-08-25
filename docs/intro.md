@@ -4,13 +4,13 @@ title: Introduction
 sidebar_position: 1
 ---
 
-[**WatChat**](https://watchat.c0s.me/) is a highly secure, fully anonymous, account-less `WatchParty` that is not solely used for movie nights.
+[**WatChat**](https://watchat.c0s.me/) is a highly secure, fully anonymous, account-less `Watch Party` that is not solely used for movie nights.
 
 The app comes with a translucent-themed video player with many features built entirely on the web, and a high grade cross-platform chat system.
 
 The two parts are connected together and let you chat while watching movies, sync the video player state across users with a precise time algorithm, and use all features of both sections at the same time.
 
-Even if you're not a `Movie watcher` kind of person, you can take advantage of the chat system, as it provides a ton of useful features for a `Chat app` that requires zero installation and is available for almost all operating systems.
+Even if you're not a `Movie watcher` kind of person, you can take advantage of the chat system, as it provides a ton of useful features for a chat app that requires zero installation and is available for almost all operating systems.
 
 Here's a some of WatChat's features:
 
@@ -68,7 +68,7 @@ If you have a direct URL that points to a supported video, you can import it and
 
 The player is designed to download only the parts that are relevant and not the entire video. This helps save bandwidth way more than you can imagine.
 
-> Note: 
+> **Note:**
 > Video player sources *(local or URL)* are **not synced**. This is intentionally designed that way so each user can load their own version of a video.
 >
 > For example, one client can load a video with `1080p` quality and another can choose to load the `720p` one. The time and state will be synced no matter the user's loaded video.
