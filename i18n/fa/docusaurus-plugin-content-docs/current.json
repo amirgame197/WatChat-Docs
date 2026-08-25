@@ -2,10 +2,10 @@
   "sidebar.docsSidebar.category.Guides": {
     "message": "طرز کار"
   },
-  "sidebar.docsSidebar.category.Server-side-reference": {
+  "sidebar.docsSidebar.category.ServerSideReference": {
     "message": "مراجع سمت سرور"
   },
-  "sidebar.docsSidebar.category.Client-side-reference": {
+  "sidebar.docsSidebar.category.ClientSideReference": {
     "message": "مراجع سمت کلاینت"
   }
 }
