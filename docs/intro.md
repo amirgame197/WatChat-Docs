@@ -4,19 +4,19 @@ title: Introduction
 sidebar_position: 1
 ---
 
-[WatChat](https://watchat.c0s.me/) is a highly secure, fully anonymous, account-less "watchparty" that is not solely used for movie nights.
+[**WatChat**](https://watchat.c0s.me/) is a highly secure, fully anonymous, account-less `WatchParty` that is not solely used for movie nights.
 
-The app comes with a translucent-themed video player with many features built entirely on the web, and a high-grade cross-platform chat system.
+The app comes with a translucent-themed video player with many features built entirely on the web, and a high grade cross-platform chat system.
 
-The two parts are connected together and let you chat while watching movies, sync the video player state across users with a battle-tested time algorithm, and use all features of both sections at the same time.
+The two parts are connected together and let you chat while watching movies, sync the video player state across users with a precise time algorithm, and use all features of both sections at the same time.
 
-Even if you're not a "movie watcher" kind of person, you can take advantage of the chat system, as it provides a ton of useful features for a "chat app" that requires zero installation and is available for almost all operating systems.
+Even if you're not a `Movie watcher` kind of person, you can take advantage of the chat system, as it provides a ton of useful features for a `Chat app` that requires zero installation and is available for almost all operating systems.
 
-Here's a limited amount of WatChat's features:
+Here's a some of WatChat's features:
 
 ## Chat App
 
-<details><summary></summary>
+<details><summary><strong>Features</strong></summary>
 
 ### Reactions
 
@@ -24,7 +24,7 @@ Aside from sending messages or replying, there are reactions too! You can give a
 
 ### GIFs and stickers
 
-Once you send an image or a muted video, they get saved in your "recent media" tab. After that, you can send them back quickly at any time.
+Once you send an image or a muted video, they get saved in your `Recent media` tab. After that, you can send them back quickly at any time.
 
 ### Voice recorder
 
@@ -32,7 +32,7 @@ Simply press the white microphone icon and start the recording. Once you're done
 
 ### Voice chat
 
-A sort of experimental implementation of a voice chat, with a maximum of 15 participants and basic call functionalities.
+A sort of experimental implementation of a voice chat, with a maximum of <u>15 participants</u> and basic call functionalities.
 
 ### Graphic control settings
 
@@ -40,7 +40,7 @@ Some of the app's quality and internal controllers might prevent an old device f
 
 ### User mentions & push notifications
 
-Users can mention each other to receive a push notification (if enabled). This helps when you want a user to get into the app while they're away.
+Users can mention each other to receive a push notification *(if enabled)*. This helps when you want a user to get into the app while they're away.
 
 ### Search & pin messages
 
@@ -54,7 +54,7 @@ Sometimes, a user is just trying to make you rage. You can block anyone to stop 
 
 ## Video Player
 
-<details><summary></summary>
+<details><summary><strong>Features</strong></summary>
 
 ### Play videos downloaded to your local device
 
@@ -66,10 +66,10 @@ If you have a direct URL that points to a supported video, you can import it and
 
 The player is designed to download only the parts that are relevant and not the entire video. This helps save bandwidth way more than you can imagine.
 
-> [!IMPORTANT]
-> Video player sources (local or URL) are **not synced**. This is intentionally designed that way so each user can load their own version of a video.
+> Note: 
+> Video player sources *(local or URL)* are **not synced**. This is intentionally designed that way so each user can load their own version of a video.
 >
-> For example, one client can load a video with 1080p quality and another can choose to load the 720p one. The time and state will be synced no matter the user's loaded video.
+> For example, one client can load a video with `1080p` quality and another can choose to load the `720p` one. The time and state will be synced no matter the user's loaded video.
 
 ### Full `.srt` subtitle support
 
@@ -79,11 +79,11 @@ The latter uses an external service called `FFmpeg` that reads the video's metad
 
 ### Live streaming
 
-A user can host a live stream of their screen (available on desktop only, a limitation of web technology) or their camera (back camera is preferred).
+A user can host a live stream of their screen *(available on desktop only, a limitation of web technology)* or their camera *(back camera is preferred)*.
 
 Anyone can stop the live stream by pressing the reset button.
 
-> **Note:** We recommend not abusing this functionality, as it might make the streamer upset.
+> **Note:** We recommend you not to abuse this functionality, as it might make the streamer upset.
 
 ### Speed controls
 
@@ -93,15 +93,15 @@ And not in a limited way! You can go up to **4x faster** to skip through all the
 
 ## Theme editor
 
-There is also a full-on theme editor that lets you change every aspect of the app, such as colors, post effects, and background images for each mode (dark and light).
+There is also a full-on theme editor that lets you change every aspect of the app, such as **colors**, **post effects**, and **background images** for each mode (<u>dark</u> and <u>light</u>).
 
 ## Security
 
 **The key point of WatChat is its encryption system.**
 
-The project is built for extremely harsh and sensitive environments where even the server hosting the app is being watched by the government (or a corporation).
+The project is built for extremely harsh and sensitive environments where even the server hosting the app is being watched by the government *(or a corporation)*.
 
-To prevent any data leak, WatChat encrypts every single data point for every room, including even the room's name and its messages, in a way that there would be absolutely nothing visible inside the server itself.
+To prevent any data leak, WatChat encrypts every single data point for every room, including the room's metadata and its messages, in a way that there would be absolutely nothing visible inside the server files itself.
 
 That level of protection allows the user data to stay hidden even if an authority has full access to the server.
 
@@ -111,7 +111,7 @@ The only way to access data is to directly navigate to a `Public` room.
 
 Speaking of more encryption, WatChat even allows you to have `Private` rooms with a custom password.
 
-The password is set by the first person who joins the room for the first time, which creates the room and its initial data.
+The password is set by the first person who joins the room for the first time, which creates the room and sets its initial data.
 
 With a custom password, a user can get access to the room's data only if they provide the correct password.
 
@@ -119,7 +119,7 @@ With a custom password, a user can get access to the room's data only if they pr
 
 Another privacy concern for major social apps is user data.
 
-WatChat eliminates the entire concept by storing zero user data. Your identity preservation is handled by you, not us.
+WatChat eliminates the entire concept by storing **zero** user data. Your identity preservation is handled by you, not us.
 
 There is no Sign-Up or Login system. You are always fully anonymous, but with a special identity that is always carried by you inside your browser.
 
@@ -127,4 +127,4 @@ There is no Sign-Up or Login system. You are always fully anonymous, but with a 
 
 **[Click here to open WatChat](https://watchat.c0s.me/)!**
 
-The next step shows you how to get started with everything. The usage flow is extremely easy, you can't miss it out.
+The next step shows you how to get started with everything. The usage flow is extremely easy, you can't miss it out!
