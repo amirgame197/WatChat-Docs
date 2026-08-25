@@ -16,7 +16,8 @@ Here's a some of WatChat's features:
 
 ## Chat App
 
-<details><summary><strong>Features</strong></summary>
+<details>
+<summary><strong>Features</strong></summary>
 
 ### Reactions
 
@@ -54,7 +55,8 @@ Sometimes, a user is just trying to make you rage. You can block anyone to stop 
 
 ## Video Player
 
-<details><summary><strong>Features</strong></summary>
+<details>
+<summary><strong>Features</strong></summary>
 
 ### Play videos downloaded to your local device
 
