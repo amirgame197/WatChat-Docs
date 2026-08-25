@@ -1,11 +1,11 @@
 {
-  "sidebar.docsSidebar.category.guides": {
+  "sidebar.docsSidebar.category.Guides": {
     "message": "طرز کار"
   },
-  "sidebar.docsSidebar.category.server-side-reference": {
+  "sidebar.docsSidebar.category.Server-side-reference": {
     "message": "مراجع سمت سرور"
   },
-  "sidebar.docsSidebar.category.client-side-reference": {
+  "sidebar.docsSidebar.category.Client-side-reference": {
     "message": "مراجع سمت کلاینت"
   }
 }
