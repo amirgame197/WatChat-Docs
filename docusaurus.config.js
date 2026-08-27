@@ -102,7 +102,7 @@ export default {
     },
     image: 'img/social-card.png',
     navbar: {
-      title: 'WatChat Documentation',
+      title: 'WatChat',
       logo: {alt: 'WatChat Icon', src: 'img/favicon.png', href: '/intro'},
       hideOnScroll: false,
       items: [
