@@ -34,7 +34,10 @@ export default {
   projectName,
   trailingSlash: false,
   onBrokenLinks: 'throw',
-  markdown: {hooks: {onBrokenMarkdownLinks: 'warn', onBrokenMarkdownImages: 'warn'}},
+  markdown: {
+    hooks: {onBrokenMarkdownLinks: 'warn', onBrokenMarkdownImages: 'warn'},
+    mermaid: true,
+  },
   i18n: {
     defaultLocale: 'en',
     locales: ['en', 'fa'],
@@ -44,6 +47,7 @@ export default {
     },
   },
   themes: [
+    '@docusaurus/theme-mermaid',
     [
       '@easyops-cn/docusaurus-search-local',
       {
