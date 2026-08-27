@@ -1,7 +1,7 @@
 ---
 id: theme-editor
-title: Theme editor
-sidebar_label: Theme editor
+title: Theme Editor
+sidebar_label: Theme Editor
 sidebar_position: 6
 ---
 
