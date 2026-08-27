@@ -5,7 +5,7 @@ sidebar_label: Entering a Room
 sidebar_position: 2
 ---
 
-![](/static/img/room-overall-image.png)
+![](/img/room-overall-image.png)
 
 ### Once you normally enter a room, you'll see a page similar to the image above.
 
@@ -17,6 +17,6 @@ You can launch the chat section alone by either:
 1. Pressing the `Enter Chat Only` button in the main page
 2. Changing the website's url to include a `/chat` at last:
 
-![](/static/img/room-url-indicator.png)
+![](/img/room-url-indicator.png)
 
 The room's name is also visible in the <u>website's URL</u>, along with the <u>chat section</u> (left).
