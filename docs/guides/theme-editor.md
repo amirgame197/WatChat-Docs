@@ -2,7 +2,7 @@
 id: theme-editor
 title: Theme editor
 sidebar_label: Theme editor
-sidebar_position: 8
+sidebar_position: 6
 ---
 
 The app comes with a pretty robust theme editor that saves and loads the theme config from `localStorage`, fully in browser.
