@@ -12,9 +12,9 @@ The two parts are connected together and let you chat while watching movies, syn
 
 Even if you're not a `Movie watcher` kind of person, you can take advantage of the chat system, as it provides a ton of useful features for a chat app that requires zero installation and is available for almost all operating systems.
 
-Here's a some of WatChat's features:
+Here's some of WatChat's features:
 
-## Chat App
+## Chat app
 
 <details>
 <summary><strong>Features</strong></summary>
