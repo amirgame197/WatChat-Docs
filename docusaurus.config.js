@@ -34,7 +34,7 @@ export default {
   projectName,
   trailingSlash: false,
   onBrokenLinks: 'throw',
-  markdown: {hooks: {onBrokenMarkdownLinks: 'warn'}},
+  markdown: {hooks: {onBrokenMarkdownLinks: 'warn', onBrokenMarkdownImages: 'warn'}},
   i18n: {
     defaultLocale: 'en',
     locales: ['en', 'fa'],
