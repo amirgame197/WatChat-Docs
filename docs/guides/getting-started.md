@@ -18,10 +18,11 @@ You can type an *arbitrary* room name and press `Continue`, that will send you d
 
 If there is an **existing** room with that name, you will enter that room. But if it's a **new** room, it will be automatically created.
 
-> [!NOTE]
-> Room names are currently limited to `AZaz09` characters.
->
-> That means a room's name can only contain alphabetic characters, both <u>uppercase</u> and <u>lowercase</u> + all 10 digits.
+:::note
+Room names are currently limited to `AZaz09` characters.
+
+That means a room's name can only contain alphabetic characters, both <u>uppercase</u> and <u>lowercase</u> + all 10 digits.
+:::
 
 ## Release notes
 

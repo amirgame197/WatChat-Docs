@@ -1,7 +1,6 @@
 import {themes as prismThemes} from 'prism-react-renderer';
 import fs from 'node:fs';
 import path from 'node:path';
-import remarkGithubAdmonitionsToDirectives from 'remark-github-admonitions-to-directives';
 
 const repo = process.env.GITHUB_REPOSITORY || 'amirgame197/WatChat-Docs';
 const [organizationName, projectName] = repo.split('/');
@@ -67,8 +66,7 @@ export default {
       docs: {
         sidebarPath: './sidebars.js',
         editUrl: undefined,
-        routeBasePath: '/',
-        remarkPlugins: [remarkGithubAdmonitionsToDirectives],
+        routeBasePath: '/'
       },
       blog: false,
       theme: {

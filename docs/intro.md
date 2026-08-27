@@ -68,10 +68,11 @@ If you have a direct URL that points to a supported video, you can import it and
 
 The player is designed to download only the parts that are relevant and not the entire video. This helps save bandwidth way more than you can imagine.
 
-> [!IMPORTANT]
-> Video player sources *(local or URL)* are **not synced**. This is intentionally designed that way so each user can load their own version of a video.
->
-> For example, one client can load a video with `1080p` quality and another can choose to load the `720p` one. The time and state will be synced no matter the user's loaded video.
+:::important
+Video player sources *(local or URL)* are **not synced**. This is intentionally designed that way so each user can load their own version of a video.
+
+For example, one client can load a video with `1080p` quality and another can choose to load the `720p` one. The time and state will be synced no matter the user's loaded video.
+:::
 
 ### Full `.srt` subtitle support
 
@@ -85,7 +86,9 @@ A user can host a live stream of their screen *(available on desktop only, a lim
 
 Anyone can stop the live stream by pressing the reset button.
 
-> [!CAUTION] We recommend you not to abuse this functionality, as it might make the streamer upset.
+:::caution
+We recommend you not to abuse this functionality, as it might make the streamer upset.
+:::
 
 ### Speed controls
 

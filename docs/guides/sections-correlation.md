@@ -76,7 +76,8 @@ flowchart TD
 
 ### The figure above shows the basic interaction set between `Chat` and `Video` sections, for each client.
 
-> [!CAUTION]
-> When in iframe mode (both section in one page), the sections communicate with `SendMessage`.
->
-> Some functionalities might break when `Video` section is missing a sibling `Chat` section.
+:::caution
+When in iframe mode (both section in one page), the sections communicate with `SendMessage`.
+
+Some functionalities might break when `Video` section is missing a sibling `Chat` section.
+:::
