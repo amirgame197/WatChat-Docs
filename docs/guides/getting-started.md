@@ -29,6 +29,6 @@ If there is an **existing** room with that name, you will enter that room. But i
 
 - By pressing this button, you can see the latest releases and version notes, along with latest features and bug fixes:
 
-</br>
+<br />
 
 ![](/static/img/release-notes-modal.png)
