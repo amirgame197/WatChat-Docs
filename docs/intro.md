@@ -86,7 +86,7 @@ A user can host a live stream of their screen *(available on desktop only, a lim
 
 Anyone can stop the live stream by pressing the reset button.
 
-:::caution
+:::tip
 We recommend you not to abuse this functionality, as it might make the streamer upset.
 :::
 
