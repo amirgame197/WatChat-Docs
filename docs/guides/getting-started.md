@@ -12,7 +12,7 @@ If you don't do that, a random name and profile picture will be automatically se
 
 ## Main page
 
-![](/static/img/main-page-image.png)
+![](/img/main-page-image.png)
 
 You can type an *arbitrary* room name and press `Continue`, that will send you directly to the room.
 
@@ -25,10 +25,10 @@ If there is an **existing** room with that name, you will enter that room. But i
 
 ## Release notes
 
-![](/static/img/release-notes-indicator.png)
+![](/img/release-notes-indicator.png)
 
 - By pressing this button, you can see the latest releases and version notes, along with latest features and bug fixes:
 
 <br />
 
-![](/static/img/release-notes-modal.png)
+![](/img/release-notes-modal.png)
