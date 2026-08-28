@@ -24,7 +24,7 @@ sidebar_position: 3
 
 flowchart TD
 
-    subgraph Client_A["Client A · Both sections"]
+    subgraph Client_A["Client A - Both sections"]
         direction TB
 
         Container_A(["Container"])
@@ -36,11 +36,11 @@ flowchart TD
         Container_A --> Video_A
     end
 
-    subgraph Client_B["Client B · Chat only"]
+    subgraph Client_B["Client B - Chat only"]
         Chat_B(["💬 Chat iframe"])
     end
 
-    subgraph Client_C["Client C · Separate tabs"]
+    subgraph Client_C["Client C - Separate tabs"]
         Chat_C(["💬 Chat tab"])
         Video_C(["🎥 Video tab"])
     end
