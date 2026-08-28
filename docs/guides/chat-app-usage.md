@@ -5,9 +5,10 @@ sidebar_label: Chat App Usage
 sidebar_position: 4
 ---
 
-![](/vid/replying-to-message.webm)
+<video autoplay loop muted playsinline width="640"><source src="/vid/replying-to-message.webm" type="video/webm"></video>
 
 ## Sending & replying messages
+---
 
 If you're using your phone, you can just <u>swipe the message</u> left or right to start replying.<br />
 On desktop systems, you can <u>double click</u> the message instead.
@@ -17,6 +18,7 @@ On desktop systems, you can <u>double click</u> the message instead.
 Or you can right click *(click - in phone)* and select the first option.
 
 ## Message options
+---
 
 And once you open the message options, you'll see several other buttons:
 
@@ -39,7 +41,7 @@ But if you can't find the one you're looking for, you can just type the reaction
 ### 📋 Copy Text
 ---
 
-Simply copy the message.
+Simply copies the message.
 
 The copied text keeps Markdown as the original *raw* format, which differs from a visible Markdown message.
 
@@ -97,11 +99,12 @@ This action does not remove an already sent push notification.
 
 ![](/img/message-views-image.png)
 
-#### *Whenever your message gets a two-tick indicator (![](/img/double-tick.png)), you can open this panel to find out who saw your message.*
+**<i>Whenever your message gets a two-tick indicator (![](/img/double-tick.png)), you can open this panel to find out who saw your message.</i>**
 
 Some users might be `Unknown` due to lack of recent messages, or being offline for a long time.
 
 ## Users list
+---
 
 There are several ways to check the users in your room.
 
@@ -115,6 +118,7 @@ Other than that, `👥 Online users` panel can show you the list of currently on
 This can be useful if you want to check if everyone's video states are in sync.
 
 ## Finding messages
+---
 
 When the room's messages count up to a massive amount, you might need to somehow find the older messages and 
 
@@ -137,6 +141,7 @@ Pinned messages are visible in this panel.
 You can direcly unpin a message by clicking the `📍` icon on top of the message.
 
 ## Voice chat
+---
 
 You can watch and talk at the same time, chatting is not the only option.
 
@@ -153,6 +158,7 @@ That way, each participant will only see the server's IP address instead of a cl
 :::
 
 ## Blocking users
+---
 
 ![](/img/blocking-user-image.png)
 
@@ -161,6 +167,7 @@ When you block a user, all messages from a user will be hidden, and you'll no lo
 You will also not receive <u>states</u> and <u>reactions</u> from a blocked user.
 
 ## Chat settings
+---
 
 ![](/img/room-options.png)
 
@@ -174,7 +181,7 @@ While WatChat has advanced optimization techniques, the sole un-optimized identi
 
 You can toggle all of the website's <u>*Liquid* effects</u>, <u>Mutation observers</u>, <u>Pretty emojis</u> (microsoft fluent flat) and <u>Animations</u>.
 
-:::caution
+:::danger
 You can also clear the app's caches. There are two types of caches:
 1. Dynamic: Website's pages and internal files, saved locally to increase loading speed.
 2. Static: Media sent by users and some local files.
