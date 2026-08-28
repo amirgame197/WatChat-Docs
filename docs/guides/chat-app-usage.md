@@ -5,7 +5,7 @@ sidebar_label: Chat App Usage
 sidebar_position: 4
 ---
 
-<video autoPlay loop muted playsInline width={640}><source src="/vid/replying-to-message.webm" type="video/webm" /></video>
+<video autoPlay loop muted playsInline width="100%"><source src="/vid/replying-to-message.webm" type="video/webm" /></video>
 
 ## Sending & replying messages
 ---
