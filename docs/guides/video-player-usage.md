@@ -228,5 +228,5 @@ flowchart TD
 ```
 
 :::tip
-You can compare the `Server Time` *(visible in player's bottom-down)* with your video's time to see if you're behind or ahead. If the value differs more than ~5 seconds, you can press the sync button to force all clients to the server time.
+You can compare the `Server Time` *(visible in player's bottom-center)* with your video's time to see if you're behind or ahead. If the value differs more than ~5 seconds, you can press the sync button to force all clients to the server time.
 :::
