@@ -5,12 +5,12 @@ sidebar_label: Video Player Usage
 sidebar_position: 5
 ---
 
-![](/static/img/video-player-image.png)
+![](/img/video-player-image.png)
 
 ## Loading videos
 ---
 
-![](/static/img/loading-video-image.png)
+![](/img/loading-video-image.png)
 
 There are currently two ways to load up a video in the player.
 
@@ -42,7 +42,7 @@ In that case, you'll need to either wait for the whole video to get downloaded, 
 ## Loading subtitles
 ---
 
-![](/static/img/video-subtitle-image.png)
+![](/img/video-subtitle-image.png)
 
 You can add a subtitle to video, which is automatically converted and fixed through the server.
 
@@ -89,7 +89,7 @@ Pressing this button will `Reset` the video state. This includes:
 4. Unloading the video
 5. **Stopping a `Live Stream`**
 
-![](/static/img/video-side-controls-image.png)
+![](/img/video-side-controls-image.png)
 
 ### Playback speed
 ---
@@ -116,7 +116,7 @@ At the same time, some high quality videos might not exactly get as fast as the 
 ## Live streaming
 ---
 
-![](/static/img/streaming-video-image.png)
+![](/img/streaming-video-image.png)
 
 Starting a `Live Stream` will change everyone's video source to the stream source.
 
