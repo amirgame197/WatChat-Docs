@@ -5,14 +5,14 @@ sidebar_label: Chat App Usage
 sidebar_position: 4
 ---
 
-![](/static/vid/replying-to-message.webm)
+![](/vid/replying-to-message.webm)
 
 ## Sending & replying messages
 
 If you're using your phone, you can just <u>swipe the message</u> left or right to start replying.<br />
 On desktop systems, you can <u>double click</u> the message instead.
 
-![](/static/img/reply-to-message-image.png)
+![](/img/reply-to-message-image.png)
 
 Or you can right click *(click - in phone)* and select the first option.
 
@@ -20,14 +20,14 @@ Or you can right click *(click - in phone)* and select the first option.
 
 And once you open the message options, you'll see several other buttons:
 
-![](/static/img/message-options-image.png)
+![](/img/message-options-image.png)
 
 ### ❤️ React
 ---
 
 You can add an *infinite* amount of reactions to a message, which can be an Emoji or a custom sentence:
 
-![](/static/img/reactions-panels-image.png)
+![](/img/reactions-panels-image.png)
 
 
 #### **➕ Custom reactions**
@@ -68,7 +68,7 @@ Files sent by users can be **malicious** or potentially unsafe. Do not execute r
 ### ®️ Add to Recent *(Media)*
 ---
 
-![](/static/img/recent-media-panel.png)
+![](/img/recent-media-panel.png)
 
 Your `®️ Recent Media` panel contains your latest GIFs and stickers. You can quickly send them back using this panel.
 
@@ -95,9 +95,9 @@ This action does not remove an already sent push notification.
 ### 👁️ Views *(Self)*
 ---
 
-![](/static/img/message-views-image.png)
+![](/img/message-views-image.png)
 
-#### *Whenever your message gets a two-tick indicator (![](/static/img/double-tick.png)), you can open this panel to find out who saw your message.*
+#### *Whenever your message gets a two-tick indicator (![](/img/double-tick.png)), you can open this panel to find out who saw your message.*
 
 Some users might be `Unknown` due to lack of recent messages, or being offline for a long time.
 
@@ -107,7 +107,7 @@ There are several ways to check the users in your room.
 
 The server does not store any kind of `Members` list for rooms, therefore there is no consistent way of *subscribing* to a room.
 
-![](/static/img/recent-users-image.png)
+![](/img/recent-users-image.png)
 
 For example, you can type `@` in chat to bring the list of `Recent Users` up. You can click on any user to start mentioning them.
 
@@ -121,7 +121,7 @@ When the room's messages count up to a massive amount, you might need to somehow
 ### 🔎 Search chats
 ---
 
-![](/static/img/search-panel-image.png)
+![](/img/search-panel-image.png)
 
 In this panel, you can type your query and press `Enter`.
 
@@ -130,7 +130,7 @@ The search's results are limited to 200 messages.
 ### 📌 Pinned messages
 ---
 
-![](/static/img/pinned-messages-image.png)
+![](/img/pinned-messages-image.png)
 
 Pinned messages are visible in this panel.
 
@@ -142,7 +142,7 @@ You can watch and talk at the same time, chatting is not the only option.
 
 The voice chat uses a **browser native** communication method called `WebRTC`.
 
-![](/static/img/voice-chat-image.png)
+![](/img/voice-chat-image.png)
 
 :::note
 This is a <u>Peer-to-Peer</u> realtime communication system that connects clients to each other, which leaks your IP address to everyone.
@@ -154,7 +154,7 @@ That way, each participant will only see the server's IP address instead of a cl
 
 ## Blocking users
 
-![](/static/img/blocking-user-image.png)
+![](/img/blocking-user-image.png)
 
 When you block a user, all messages from a user will be hidden, and you'll no longer see a message from that specific user.
 
@@ -162,7 +162,7 @@ You will also not receive <u>states</u> and <u>reactions</u> from a blocked user
 
 ## Chat settings
 
-![](/static/img/room-options.png)
+![](/img/room-options.png)
 
 This section allows you to modify the app's internal quality settings.
 
