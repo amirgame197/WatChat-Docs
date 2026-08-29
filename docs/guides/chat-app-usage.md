@@ -120,7 +120,7 @@ This can be useful if you want to check if everyone's video states are in sync.
 ## Finding messages
 ---
 
-When the room's messages count up to a massive amount, you might need to somehow find the older messages and 
+When the room's messages count up to a massive amount, you might need to somehow find the older messages: 
 
 ### 🔎 Search chats
 ---
