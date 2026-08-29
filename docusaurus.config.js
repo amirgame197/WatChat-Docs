@@ -1,11 +1,7 @@
 import {themes as prismThemes} from 'prism-react-renderer';
-import fs from 'node:fs';
-import path from 'node:path';
 
 const repo = process.env.GITHUB_REPOSITORY || 'amirgame197/WatChat-Docs';
 const [organizationName, projectName] = repo.split('/');
-const cnamePath = path.join(process.cwd(), 'static', 'CNAME');
-const customDomain = fs.existsSync(cnamePath) ? fs.readFileSync(cnamePath, 'utf8').trim() : ''; 
 
 const githubUrl = 'https://github.com/amirgame197/WatChat-Docs';
 const docsWebsiteUrl = 'https://docs.watchat.c0s.me';
@@ -29,7 +25,7 @@ export default {
   title: 'WatChat',
   tagline: 'Documentation for WatChat',
   favicon: 'img/favicon.png',
-  url: customDomain ? `https://${customDomain}` : `https://${organizationName}.github.io`,
+  url: docsWebsiteUrl,
   baseUrl: '/',
   organizationName,
   projectName,
