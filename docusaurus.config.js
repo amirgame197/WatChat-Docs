@@ -34,6 +34,30 @@ export default {
   projectName,
   trailingSlash: false,
   onBrokenLinks: 'throw',
+  headTags: [
+    // Open Graph
+    {tagName: 'meta', attributes: {property: 'og:site_name', content: 'WatChat'}},
+    {tagName: 'meta', attributes: {property: 'og:type', content: 'website'}},
+    {tagName: 'meta', attributes: {property: 'og:title', content: 'WatChat Docs'}},
+    {tagName: 'meta', attributes: {property: 'og:description', content: 'Documentation for WatChat: chat, stream, voice call and watch party.'}},
+    {tagName: 'meta', attributes: {property: 'og:url', content: websiteUrl}},
+    {tagName: 'meta', attributes: {property: 'og:image', content: `${websiteUrl}/img/social-card.png`}},
+    {tagName: 'meta', attributes: {property: 'og:image:alt', content: 'WatChat logo'}},
+    {tagName: 'meta', attributes: {property: 'og:image:width', content: '1200'}},
+    {tagName: 'meta', attributes: {property: 'og:image:height', content: '630'}},
+    {tagName: 'meta', attributes: {property: 'og:locale', content: 'en_US'}},
+
+    // Twitter
+    {tagName: 'meta', attributes: {name: 'twitter:card', content: 'summary_large_image'}},
+    {tagName: 'meta', attributes: {name: 'twitter:title', content: 'WatChat Docs'}},
+    {tagName: 'meta', attributes: {name: 'twitter:description', content: 'Documentation for WatChat: chat, stream, voice call and watch party.'}},
+    {tagName: 'meta', attributes: {name: 'twitter:image', content: `${websiteUrl}/img/social-card.png`}},
+    {tagName: 'meta', attributes: {name: 'twitter:image:alt', content: 'WatChat logo'}},
+
+    // Misc
+    {tagName: 'meta', attributes: {name: 'theme-color', content: '#5865f2'}},
+    {tagName: 'meta', attributes: {name: 'description', content: 'Documentation for WatChat: chat, stream, voice call and watch party.'}},
+  ],
   markdown: {
     hooks: {onBrokenMarkdownLinks: 'warn', onBrokenMarkdownImages: 'warn'},
     mermaid: true,
