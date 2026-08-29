@@ -8,6 +8,7 @@ const cnamePath = path.join(process.cwd(), 'static', 'CNAME');
 const customDomain = fs.existsSync(cnamePath) ? fs.readFileSync(cnamePath, 'utf8').trim() : ''; 
 
 const githubUrl = 'https://github.com/amirgame197/WatChat-Docs';
+const docsWebsiteUrl = 'https://docs.watchat.c0s.me';
 const websiteUrl = 'https://watchat.c0s.me';
 
 const githubIcon =
@@ -40,8 +41,8 @@ export default {
     {tagName: 'meta', attributes: {property: 'og:type', content: 'website'}},
     {tagName: 'meta', attributes: {property: 'og:title', content: 'WatChat Docs'}},
     {tagName: 'meta', attributes: {property: 'og:description', content: 'Documentation for WatChat: chat, stream, voice call and watch party.'}},
-    {tagName: 'meta', attributes: {property: 'og:url', content: websiteUrl}},
-    {tagName: 'meta', attributes: {property: 'og:image', content: `${websiteUrl}/img/social-card.png`}},
+    {tagName: 'meta', attributes: {property: 'og:url', content: docsWebsiteUrl}},
+    {tagName: 'meta', attributes: {property: 'og:image', content: `${docsWebsiteUrl}/img/social-card.png`}},
     {tagName: 'meta', attributes: {property: 'og:image:alt', content: 'WatChat logo'}},
     {tagName: 'meta', attributes: {property: 'og:image:width', content: '1200'}},
     {tagName: 'meta', attributes: {property: 'og:image:height', content: '630'}},
@@ -51,7 +52,7 @@ export default {
     {tagName: 'meta', attributes: {name: 'twitter:card', content: 'summary_large_image'}},
     {tagName: 'meta', attributes: {name: 'twitter:title', content: 'WatChat Docs'}},
     {tagName: 'meta', attributes: {name: 'twitter:description', content: 'Documentation for WatChat: chat, stream, voice call and watch party.'}},
-    {tagName: 'meta', attributes: {name: 'twitter:image', content: `${websiteUrl}/img/social-card.png`}},
+    {tagName: 'meta', attributes: {name: 'twitter:image', content: `${docsWebsiteUrl}/img/social-card.png`}},
     {tagName: 'meta', attributes: {name: 'twitter:image:alt', content: 'WatChat logo'}},
 
     // Misc
