@@ -5,4 +5,4 @@ sidebar_label: Socket.IO Events & Responses
 sidebar_position: 4
 ---
 
-Empty Section.
+Waiting to be written...
