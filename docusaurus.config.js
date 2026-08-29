@@ -65,7 +65,7 @@ export default {
     {
       docs: {
         sidebarPath: './sidebars.js',
-        editUrl: undefined,
+        editUrl: 'https://github.com/amirgame197/WatChat-Docs/tree/main/',
         routeBasePath: '/'
       },
       blog: false,
