@@ -29,15 +29,15 @@ flowchart TD
 
         Container_A(["Container"])
 
-        Chat_A(["💬 Chat iframe"])
-        Video_A(["🎥 Video iframe"])
+        Chat_A(["💬 Chat IFrame"])
+        Video_A(["🎥 Video IFrame"])
 
         Container_A --> Chat_A
         Container_A --> Video_A
     end
 
     subgraph Client_B["Client B - Chat only"]
-        Chat_B(["💬 Chat iframe"])
+        Chat_B(["💬 Chat IFrame"])
     end
 
     subgraph Client_C["Client C - Separate tabs"]
@@ -77,7 +77,7 @@ flowchart TD
 ### The figure above shows the basic interaction set between `Chat` and `Video` sections, for each client.
 
 :::caution
-When in iframe mode (both section in one page), the sections communicate with `SendMessage`.
+When in IFrame mode (both section in one page), the sections communicate with `SendMessage`.
 
 Some functionalities might break when `Video` section is missing a sibling `Chat` section.
 :::

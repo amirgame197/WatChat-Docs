@@ -62,9 +62,9 @@ Sometimes, a user is just trying to make you rage. You can block anyone to stop 
 
 No upload & no wasted bandwidth. If your video is already in your storage, you can just use that.
 
-### Play video from a direct URL
+### Play video from a direct URL, or YouTube
 
-If you have a direct URL that points to a supported video, you can import it and stream the video as you watch it.
+If you have a direct URL that points to a supported video, or a YouTube video link, you can import it and stream the video as you watch it.
 
 The player is designed to download only the parts that are relevant and not the entire video. This helps save bandwidth way more than you can imagine.
 
@@ -72,6 +72,10 @@ The player is designed to download only the parts that are relevant and not the 
 Video player sources *(local or URL)* are **not synced**. This is intentionally designed that way so each user can load their own version of a video.
 
 For example, one client can load a video with `1080p` quality and another can choose to load the `720p` one. The time and state will be synced no matter the user's loaded video.
+:::
+
+:::caution
+YouTube video streaming uses YouTube IFrame API, and tracks your activity (view counts, watch history, etc.).
 :::
 
 ### Full `.srt` subtitle support

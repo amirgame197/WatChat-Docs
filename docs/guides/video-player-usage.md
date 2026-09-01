@@ -26,10 +26,10 @@ This causes the player to freeze in a black screen, and play the video's audio i
 Unfortunately, there is currently <u>no fix</u> for that. If your device seems to have this problem, you need to load up `x264` *(MPEG)* instead.
 :::
 
-### Loading from direct URL
+### Loading from a video URL
 ---
 
-If you have a link that directly shows / downloads the video upon opening, you can choose this option and fill in the prompt to try and stream the video online.
+If you have a link that directly shows / downloads the video upon opening, or is <u>a YouTube video link</u>, you can choose this option and fill in the prompt to try and stream the video online.
 
 Using this method adds a little bit of overhead and might cause minor setbacks on an old device. This is because the network always has to send requests to fetch the URL as a `Partial Response`.
 
@@ -37,6 +37,10 @@ Using this method adds a little bit of overhead and might cause minor setbacks o
 Some servers do not allow `Partial Response` requests and therefore a video stream cannot happen in the player.
 
 In that case, you'll need to either wait for the whole video to get downloaded, or choose another server that supports that feature.
+:::
+
+:::caution
+YouTube video streaming uses YouTube IFrame API, and tracks your activity (view counts, watch history, etc.).
 :::
 
 ## Loading subtitles
